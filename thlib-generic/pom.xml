@@ -76,6 +76,38 @@
 		    <artifactId>xpp3</artifactId>
 		    <version>1.1.4c</version>
 		</dependency>
+		<!-- ******************* Hibernate *************** -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate</artifactId>
+			<version>${hibernate.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-annotations</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+		<!--***************** servlet ******************* -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+		<!--***************** jdom ******************* -->
+		<dependency>
+			<groupId>org.jdom</groupId>
+			<artifactId>jdom</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<!-- WICKET DEPENDENCIES -->
+		<dependency>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket</artifactId>
+			<version>${wicket.version}</version>
+		</dependency>
+
 	</dependencies>
 
   <!-- ========================================================== -->
