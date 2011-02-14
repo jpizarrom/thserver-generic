@@ -39,7 +39,7 @@ public class CalendarConverter extends AbstractSingleValueConverter{
 
 	@Override
 	public String toString(Object obj) {
-		SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd");
 		Calendar c = (Calendar) obj;
 		return fmt.format(c.getTime());
 	}
