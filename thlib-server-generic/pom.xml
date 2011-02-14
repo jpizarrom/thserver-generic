@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jpizarro.th.lib.generic</groupId>
-	<artifactId>thlib-generic</artifactId>
+	<artifactId>thlib-server-generic</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<!-- TODO project name  -->
@@ -66,28 +66,28 @@
 
 	<dependencies>
 		<!--***************** xstream *******************-->
-		<dependency>
-		    <groupId>com.thoughtworks.xstream</groupId>
-		    <artifactId>xstream</artifactId>
-		    <version>1.4-SNAPSHOT</version>
-		</dependency>
+<!--		<dependency>-->
+<!--		    <groupId>com.thoughtworks.xstream</groupId>-->
+<!--		    <artifactId>xstream</artifactId>-->
+<!--		    <version>1.4-SNAPSHOT</version>-->
+<!--		</dependency>-->
 <!--		<dependency>-->
 <!--		    <groupId>xpp3</groupId>-->
 <!--		    <artifactId>xpp3</artifactId>-->
 <!--		    <version>1.1.4c</version>-->
 <!--		</dependency>-->
 		<!-- ******************* Hibernate *************** -->
-<!--		<dependency>-->
-<!--			<groupId>org.hibernate</groupId>-->
-<!--			<artifactId>hibernate</artifactId>-->
-<!--			<version>${hibernate.version}</version>-->
-<!--			<type>pom</type>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.hibernate</groupId>-->
-<!--			<artifactId>hibernate-annotations</artifactId>-->
-<!--			<version>${hibernate.version}</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate</artifactId>
+			<version>${hibernate.version}</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-annotations</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
 		<!--***************** servlet ******************* -->
 <!--		<dependency>-->
 <!--			<groupId>javax.servlet</groupId>-->
