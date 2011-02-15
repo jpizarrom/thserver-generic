@@ -76,6 +76,12 @@
 <!--		    <artifactId>xpp3</artifactId>-->
 <!--		    <version>1.1.4c</version>-->
 <!--		</dependency>-->
+		<!--******************* Spring ******************* -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 		<!-- ******************* Hibernate *************** -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -179,6 +185,27 @@
 				<configuration>
 					<downloadSources>true</downloadSources>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>add-source</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>add-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<!--<source>thlib</source> -->
+								<source>../../generic/thlib-generic/src/main/java/</source>
+<!--								<source>../../generic/thlib-server-generic/src/main/java/</source>-->
+<!--                                <source>../../user/thlib-user/src/main/java/</source>-->
+							</sources>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 
       <plugin>
