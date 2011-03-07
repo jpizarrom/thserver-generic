@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="var" path="M2_REPO/javax/transaction/jta/1.1/jta-1.1.jar" sourcepath="M2_REPO/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.6/antlr-2.7.6.jar"/>
-	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.1/commons-collections-3.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-annotations/3.5.3-Final/hibernate-annotations-3.5.3-Final.jar" sourcepath="M2_REPO/org/hibernate/hibernate-annotations/3.5.3-Final/hibernate-annotations-3.5.3-Final-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar" sourcepath="M2_REPO/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-core/3.5.3-Final/hibernate-core-3.5.3-Final.jar" sourcepath="M2_REPO/org/hibernate/hibernate-core/3.5.3-Final/hibernate-core-3.5.3-Final-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar" sourcepath="M2_REPO/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/jdom/jdom/1.1/jdom-1.1.jar" sourcepath="M2_REPO/org/jdom/jdom/1.1/jdom-1.1-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.0.3.RELEASE/spring-aop-3.0.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/3.0.3.RELEASE/spring-aop-3.0.3.RELEASE-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-asm/3.0.3.RELEASE/spring-asm-3.0.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-asm/3.0.3.RELEASE/spring-asm-3.0.3.RELEASE-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.0.3.RELEASE/spring-beans-3.0.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/3.0.3.RELEASE/spring-beans-3.0.3.RELEASE-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.0.3.RELEASE/spring-context-3.0.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context/3.0.3.RELEASE/spring-context-3.0.3.RELEASE-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.0.3.RELEASE/spring-core-3.0.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/3.0.3.RELEASE/spring-core-3.0.3.RELEASE-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/3.0.3.RELEASE/spring-expression-3.0.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/3.0.3.RELEASE/spring-expression-3.0.3.RELEASE-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-web/3.0.3.RELEASE/spring-web-3.0.3.RELEASE-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/wicket/wicket/1.4.9/wicket-1.4.9.jar" sourcepath="M2_REPO/org/apache/wicket/wicket/1.4.9/wicket-1.4.9-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" sourcepath="M2_REPO/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/thoughtworks/xstream/xstream/1.4-SNAPSHOT/xstream-1.4-SNAPSHOT.jar" sourcepath="M2_REPO/com/thoughtworks/xstream/xstream/1.4-SNAPSHOT/xstream-1.4-SNAPSHOT-sources.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/thlib-generic"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
