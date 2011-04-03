@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.jpizarro.th.lib.generic</groupId>
+	<groupId>com.jpizarro.th</groupId>
 	<artifactId>thlib-server-generic</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<!-- TODO project name  -->
-	<name>quickstart</name>
+	<name>thlib-server-generic</name>
 	<description></description>
 	<!--
 		TODO <organization> <name>company name</name> <url>company url</url>
@@ -120,6 +120,12 @@
 <!--		  	<version>1.0-SNAPSHOT</version>-->
 <!--  		</dependency>-->
 
+  <!-- ========================================================== -->
+		<dependency>
+		    <groupId>com.jpizarro.th</groupId>
+		    <artifactId>thlib-generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
   <!-- ========================================================== -->
@@ -186,7 +192,7 @@
 					<downloadSources>true</downloadSources>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
 				<executions>
@@ -198,15 +204,12 @@
 						</goals>
 						<configuration>
 							<sources>
-								<!--<source>thlib</source> -->
 								<source>../../generic/thlib-generic/src/main/java/</source>
-<!--								<source>../../generic/thlib-server-generic/src/main/java/</source>-->
-<!--                                <source>../../user/thlib-user/src/main/java/</source>-->
 							</sources>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
